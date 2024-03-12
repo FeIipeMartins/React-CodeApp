@@ -1,0 +1,29 @@
+.Apresentacao {
+    text-align: center;
+    padding: 20px;
+}
+
+.Logo {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Logo img {
+    max-width: 280px;
+}
+
+.Titulo h1,
+.Titulo h2,
+.Titulo h3 {
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+.titulo_principal {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
