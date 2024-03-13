@@ -10,7 +10,7 @@ import Parceiros from './Componentes/Parceiros/Parceiros';
 
 function App() {
   return ( 
-    <div className="App">S
+    <div className="App">
       <div>
         <Cabecalho />
         </div>
