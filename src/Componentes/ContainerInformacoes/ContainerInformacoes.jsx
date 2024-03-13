@@ -1,7 +1,7 @@
 import React from 'react';
 import '../ContainerInformacoes/ContainerInformacoes.css';
 
-function Informacoes() {
+function Faq() {
     return (
         <div className="ContainerInformacoes">
             <div className="Perguntas">
@@ -21,4 +21,4 @@ function Informacoes() {
     );
 }
 
-export default Informacoes;
+export default Faq;

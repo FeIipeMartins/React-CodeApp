@@ -1,11 +1,12 @@
 import React from 'react';
 import '../Apresentacao/Apresentacao.css';
+import CodeAcademyLogoSemFundoSemLegenda from '../../Assets/Imagens/CodeAcademyLogoSemFundoSemLegenda.png';
 
 function Apresentacao() {
     return (
         <div className="Apresentacao">
             <div className="Logo">
-                <img src="../../Assets/Imagens/CodeAcademyLogoSemFundoSemLegenda.png" alt="" />
+            <img src={CodeAcademyLogoSemFundoSemLegenda} alt="" />
                 <h1 className="titulo_principal">Bem Vindo ao Code Academy</h1>
             </div>
 

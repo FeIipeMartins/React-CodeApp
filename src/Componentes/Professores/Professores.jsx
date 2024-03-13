@@ -1,11 +1,15 @@
 import React from 'react';
 import "./Professores.css";
+import Claudio from '../../Assets/Imagens/Claudio.jpg';
+import Jonas from '../../Assets/Imagens/Jonas.jpg';
+
+
 
 function Professores() {
     return (
         <div className="Professor">
             <div className="Professor_claudio">
-                <img src="../../Assets/Imagens/Claudio.jpg" alt="Professor Claudio Martins" />
+                <img src={Claudio} alt="" />
                 <h2>Claudio Martins</h2>
                 <div className="Professor_info">
                     <p>Um professor apaixonado por Python, graduado em Harvard, com uma trajetória profissional marcada por
@@ -22,7 +26,7 @@ function Professores() {
             </div>
 
             <div className="Professor_Jonas">
-                <img src="../../Assets/Imagens/Jonas.jpg" alt="Professor Jonas Silveira" />
+                <img src={Jonas} alt="Professor Jonas Silveira" />
                 <h2>Jonas Silveira</h2>
                 <div className="Professor_info">
                     <p>Um professor renomado de Java, formado pela Universidade Federal de São Paulo. Com vasta

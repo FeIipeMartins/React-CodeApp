@@ -1,11 +1,13 @@
 import React from 'react';
 import '../ContainerCadastro/ContainerCadastro.css';
+import CodeAcadamyLogoSemFundo from '../../Assets/Imagens/CodeAcademyLogoSemFundo.png';
+
 
 function Cadastro() {
     return (
         <div className="container">
             <div>
-                <img sr="../../Assets/Imagens/CodeAcademyLogoSemFundo.png" alt="" />
+            <img src={CodeAcadamyLogoSemFundo} alt="" />
                 <h2>Cadastro</h2>
             </div>
             <form action="">
