@@ -7,6 +7,7 @@ import Professores from './Componentes/Professores/Professores';
 import NovosProfessores from './Componentes/NovosProfessores/NovosProfessores';
 import Faq from './Componentes/ContainerInformacoes/ContainerInformacoes';
 import Parceiros from './Componentes/Parceiros/Parceiros';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return ( 
